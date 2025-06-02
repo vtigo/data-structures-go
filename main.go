@@ -1,7 +1,11 @@
 package main
 
+import (
+	"github.com/vtigo/data-structures-go/linkedList"
+)
+
 func main() {
-	list := NewLinkedList()
+	list := linkedList.NewLinkedList()
 
 	list.PushFront(5)
 	list.PushFront(8)
